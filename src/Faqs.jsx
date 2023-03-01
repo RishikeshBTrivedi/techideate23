@@ -85,7 +85,7 @@ export default function Faqs(props) {
     tabFocus: true
   };
   return (
-    <div>
+    <div class="faq" id="faq">
         <Navbar></Navbar>
     <div className='bg-black justify-center'>
         <h1 className='text-white font-sans text-3xl text-center p-10' style={{fontSize:"50px"}}>FAQs</h1>

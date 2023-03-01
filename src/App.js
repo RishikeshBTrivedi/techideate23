@@ -3,6 +3,8 @@ import './App.css';
 import Particles from './components/Particles';
 import "./fonts/Valorax-lg25V.otf"  
 import logo2 from "./logotech.png"
+import Nav from './Navbar';
+
 import {
   BrowserRouter,
   Routes,
@@ -13,13 +15,14 @@ import Faqs from './Faqs';
 
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Landing/>} />
-      <Route path="/faqs" element={<Faqs/>}/>
-      
-    </Routes>
-  </BrowserRouter>
+    <div>
+      <Nav/>
+    <Landing/>
+    <Faqs/>
+
+    </div>
+    
+    
   );
 }
 

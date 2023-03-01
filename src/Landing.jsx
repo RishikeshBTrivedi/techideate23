@@ -7,12 +7,12 @@ import Navbar from "./Navbar"
 import Timer from './Timer';
 const Landing = () => {
   return (
-    <div className="App">
+    <div className="App" class="landing" id="landing">
       <Navbar></Navbar>
       <header className="App-header">
         <img src={logo2} alt=""  className='logo'/>
       </header>
-      <Timer></Timer>
+    
       <Particles id="tsparticles" />
     </div>
   )
