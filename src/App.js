@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Landing from './Landing';
 import Faqs from './Faqs';
+import Events from './Events';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Landing/>} />
       <Route path="/faqs" element={<Faqs/>}/>
+      <Route path="/events" element={<Events/>}/>
       
     </Routes>
   </BrowserRouter>

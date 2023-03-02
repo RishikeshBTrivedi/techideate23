@@ -8,7 +8,7 @@ import Timer from './Timer';
 import Timer2 from './Timer2';
 const Landing = () => {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundImage:"./images/landing_bg.png"}}>
       <Navbar></Navbar>
       <header className="items-center mx-auto flex justify-center pt-[8rem] pb-10">
         <img src={logo2} alt=""  className='logo'/>
