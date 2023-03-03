@@ -11,6 +11,7 @@ import {
 import Landing from './Landing';
 import Faqs from './Faqs';
 import Events from './Events';
+import Speaker from './Speaker';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
       <Route path="/" element={<Landing/>} />
       <Route path="/faqs" element={<Faqs/>}/>
       <Route path="/events" element={<Events/>}/>
-      
+      <Route path="/speakers" element={<Speaker/>}/>
     </Routes>
   </BrowserRouter>
   );

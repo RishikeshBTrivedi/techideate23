@@ -14,6 +14,9 @@ body {
   background-attachment: fixed;
   background-position: center; */
 }
+.landing{
+  background-color: rgb(2,0,33);
+}
 .progress-bar {
   position: fixed;
   top: 0;

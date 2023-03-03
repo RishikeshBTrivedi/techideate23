@@ -6,15 +6,14 @@ import { motion } from "framer-motion"
 import Navbar from "./Navbar"
 import Timer from './Timer';
 import Timer2 from './Timer2';
+import bg_img from "./images/new_landing_bg.png"
 const Landing = () => {
   return (
-    <div className="App" style={{backgroundImage:"./images/landing_bg.png"}}>
+    <div className="landing" style={{backgroundColor: 'rgb(2,0,33)'}}>
       <Navbar></Navbar>
-      <header className="items-center mx-auto flex justify-center pt-[8rem] pb-10">
-        <img src={logo2} alt=""  className='logo'/>
-      </header>
+      <img src = {bg_img}></img>
       <Timer2></Timer2>
-      <Particles id="tsparticles" />
+      {/* <Particles id="tsparticles" /> */}
     </div>
   )
 }

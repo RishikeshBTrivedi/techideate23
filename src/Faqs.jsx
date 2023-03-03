@@ -4,6 +4,7 @@ import Navbar from "./Navbar"
 import Particles from './components/Particles';
 // import { motion } from "framer-motion"
 import { motion, useScroll } from "framer-motion";
+import faq_header from "./images/faq_header_new.png"
 
 export default function Faqs(props) {
     const { scrollYProgress } = useScroll();
@@ -70,7 +71,7 @@ export default function Faqs(props) {
     arrowColor: 'white',
   };
   const stylesMobile = {
-    bgColor: 'rgb(4,7,19)',
+    bgColor: 'rgb(2,0,33)',
     titleTextColor: 'white',
     rowTitleColor: 'white',
     rowTitleTextSize: '20px',
@@ -85,10 +86,15 @@ export default function Faqs(props) {
     tabFocus: true
   };
   return (
-    <div>
+    <div style={{backgroundColor:'rgb(4,7,255)'}}>
         <Navbar></Navbar>
-    <div className='bg-black justify-center'>
-        <h1 className='text-white font-sans text-3xl text-center p-10' style={{fontSize:"50px"}}>FAQs</h1>
+        <img src = {faq_header} className="md:w-[1920px] md:h-[314px] mt-[56px]"></img>
+    <div className='bg-black justify-center'style={{
+          padding: '3% 20%',
+          backgroundColor: 'rgb(2,0,33)',
+          'box-shadow': '0px -5px 100px rgb(4,7,255)',
+        }}>
+        {/* <h1 className='text-white font-sans text-3xl text-center p-10' style={{fontSize:"50px"}}>FAQs</h1> */}
          
         <Faq data={data} styles={stylesMobile} config={config}/>
     </div>
