@@ -68,6 +68,8 @@ export default function Faqs(props) {
     rowContentPaddingTop: '10px',
     rowContentColor: '#c3c8c9',
     arrowColor: 'white',
+    rowContentPaddingLeft: '10px',
+  
   };
   const stylesMobile = {
     bgColor: 'rgb(4,7,19)',
