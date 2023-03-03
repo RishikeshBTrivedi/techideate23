@@ -41,7 +41,7 @@ function Nav() {
                   </a>
 
                   <a
-                    href="#"
+                    href="/sponsors"
                     className="text-gray-300 hover:bg-gray-700 font-sans hover:text-white px-3 py-2 rounded-md font-medium text-xl"
                   >
                     Sponsors
