@@ -70,6 +70,7 @@ function Nav() {
                 </div>
               </div>
             </div>
+            {/* </div> */}
             <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
@@ -133,7 +134,7 @@ function Nav() {
                   href="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Dashboard
+                  Home
                 </a>
 
                 <a
@@ -173,10 +174,9 @@ function Nav() {
             </div>
           )}
         </Transition>
-      </nav>
-
-      
-    </div>
+        </nav>
+      </div>
+  
   );
 }
 

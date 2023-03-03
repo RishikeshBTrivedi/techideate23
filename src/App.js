@@ -12,7 +12,7 @@ import Landing from './Landing';
 import Faqs from './Faqs';
 import Events from './Events';
 import Speaker from './Speaker';
-
+// import Events from "./Events"
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +21,7 @@ function App() {
       <Route path="/faqs" element={<Faqs/>}/>
       <Route path="/events" element={<Events/>}/>
       <Route path="/speakers" element={<Speaker/>}/>
+      <Route path="/events" element={<Events/>}/>
     </Routes>
   </BrowserRouter>
   );

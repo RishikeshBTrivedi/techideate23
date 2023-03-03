@@ -20,10 +20,10 @@ const Timer2 = () => {
                 Date.now() +
                 1000 /* sec */ *
                 60 /* min */ *
-                60 /* hour */ *
+                9/* hour */ *
                 10 /* day */ *
                 100 /* month */ *
-                100/* year */ *
+                10/* year */ *
                 10
               ).toUTCString()}
               dayTitle='DAYS'

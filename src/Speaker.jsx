@@ -29,7 +29,7 @@ const Speaker = () => {
   return (
     <div className='' style={{backgroundColor: 'rgb(2,0,33)'}}>
         <Navbar></Navbar>
-        <img src = {speaker_header} className="md:w-[1920px] md:h-[314px] mt-[56px]"></img>
+        <img src = {speaker_header} className="md:w-[1920px] md:h-[314px] mt-[56px] h-[110px]"></img>
         <div className='md:grid md:grid-cols-4 mx-auto items-center justify-center origin-center'>
             {speakers.map((speakers , _i) => {
                 return(
