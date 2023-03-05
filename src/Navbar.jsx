@@ -7,35 +7,36 @@ function Nav() {
   
   return (
     <div>
-      <nav style={{backgroundColor:"rgb(10,8,150,0.3)"}} className="fixed top-0 flex sm:px-4 min-w-full text-white z-1 justify-around items-center h-14 z-50 pt-4 px-4">
+      <nav
+        style={{ backgroundColor: "rgb(10,8,150,0.3)" }}
+        className="fixed top-0 flex sm:px-4 min-w-full text-white z-1 justify-around items-center h-14 z-50 p-10"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-              <motion.button
-                whileHover={{
-                  scale: 1.05,
-                 
-                }}
-                transition={{ type: "spring", stiffness: 200, damping: 10 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <img
-                  className="h-1/2 w-1/4 p-5"
-                  src = {tech}//add the techidiate logo
-                  alt="tech-logo"
-                  onClick={() => {
-                    window.location.href=  "/"
+                <motion.button
+                  whileHover={{
+                    scale: 1.05,
                   }}
-                />
-              </motion.button>
-                
+                  transition={{ type: "spring", stiffness: 200, damping: 10 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <img
+                    className="h-1/2 w-1/4 p-5"
+                    src={tech} //add the techidiate logo
+                    alt="tech-logo"
+                    onClick={() => {
+                      window.location.href = "/";
+                    }}
+                  />
+                </motion.button>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="/events"
-                    className=" hover:bg-gray-700 text-white font-sans px-3 py-2 rounded-md font-medium text-xl"
+                    className="text-gray-300 hover:bg-gray-700 font-sans px-3 py-2 rounded-md font-medium text-xl"
                   >
                     Events
                   </a>
@@ -174,9 +175,8 @@ function Nav() {
             </div>
           )}
         </Transition>
-        </nav>
-      </div>
-  
+      </nav>
+    </div>
   );
 }
 
