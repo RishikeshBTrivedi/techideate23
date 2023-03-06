@@ -5,7 +5,7 @@ const Timer2 = () => {
     <div className="">
       <div
         // style={{ backgroundImage:  }}
-        className="h-[75vh] bg-cover flex justify-center items-center">
+        className="h-[75vh] bg-cover flex justify-center items-center h-screen">
         <div className="font-bold text-white tracking-widest text-center" style={{ fontFamily: "'Red Hat Text', sans-serif" }}>
           <h1 className="md:text-3xl text-xl tracking-[10px] mb-20 text-[#F2F2F2]">COMING SOON</h1>
           <div className="text=[#8486A9]">

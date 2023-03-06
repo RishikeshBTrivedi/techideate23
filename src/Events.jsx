@@ -7,11 +7,12 @@ import image4 from "./images/Events/image-4.jpg"
 import image5 from "./images/Events/image-5.jpeg"
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import "./events.css"
+import NavBar2 from './NavBar2';
 import Navbar from "./Navbar"
 const Events = () => {
   return (
     <div className="eventsPage">
-      <Navbar></Navbar>
+      <NavBar2/>
       <div className="">
         <Carousel
           autoPlay

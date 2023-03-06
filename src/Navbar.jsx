@@ -7,7 +7,7 @@ function Nav() {
   
   return (
     <div>
-      <nav style={{backgroundColor:"rgb(10,8,150,0.3)"}} className="fixed top-0 flex sm:px-4 min-w-full text-white z-1 justify-around items-center h-14 z-50 pt-4 px-4">
+      <nav style={{backgroundColor:"rgb(40,20,56,0.2)"}} className="fixed top-0 flex sm:px-4 min-w-full text-white z-1 justify-around items-center h-14 z-50 pt-4 px-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">

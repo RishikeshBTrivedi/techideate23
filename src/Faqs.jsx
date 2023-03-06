@@ -1,6 +1,6 @@
 import React from 'react';
 import Faq from 'react-faq-component';
-import Navbar from "./Navbar"
+import Navbar from "./NavBar2"
 import Particles from './components/Particles';
 // import { motion } from "framer-motion"
 import { motion, useScroll } from "framer-motion";
@@ -90,7 +90,7 @@ export default function Faqs(props) {
   return (
     <div style={{backgroundColor:'rgb(4,7,255)'}}>
         <Navbar></Navbar>
-        <img src = {faq_header} className="md:w-[1920px] md:h-[314px] mt-[56px] h-[110px]"></img>
+        <img src = {faq_header} className="md:w-[1920px] md:h-[314px] h-[110px]"></img>
     <div className='bg-black justify-center'style={{
           padding: '3% 20%',
           backgroundColor: 'rgb(2,0,33)',
