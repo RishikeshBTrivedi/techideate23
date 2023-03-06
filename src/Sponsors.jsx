@@ -1,6 +1,8 @@
 import React from 'react'
-import Nav from './NavBar2'
+import Nav from './Navbar'
+import { image1 } from "./Sponsor_images";
 import sponsors_header2 from "./images/sponsors_header2.png"
+
 function Sponsors() {
   const sponsors = [
     {
@@ -87,7 +89,7 @@ function Sponsors() {
             
 </div>
     </div>
-  )
+  );
 }
 
-export default Sponsors
+export default Sponsors;
